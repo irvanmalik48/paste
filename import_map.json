@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "$fresh/": "https://cdn.jsdelivr.net/gh/denoland/fresh@main/",
+    "$std/": "https://deno.land/std@0.154.0/",
+    "preact": "https://esm.sh/preact@10.10.6",
+    "preact/": "https://esm.sh/preact@10.10.6/",
+    "deta": "https://esm.sh/deta@1.1.0",
+    "preact-render-to-string": "https://esm.sh/preact-render-to-string@5.2.3?external=preact",
+    "@twind": "./utils/twind.ts",
+    "twind": "https://esm.sh/twind@0.16.17",
+    "twind/": "https://esm.sh/twind@0.16.17/"
+  }
+}
