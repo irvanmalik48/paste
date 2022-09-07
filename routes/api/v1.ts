@@ -23,7 +23,9 @@ export const handler: Handlers = {
     const key = Math.random().toString(36).substring(2, 12);
     const _item = await db.put({
       ...body,
-    }, key);
+    }, key, {
+      expireIn: 604800,
+    });
 
     return ctx.render(
       new Response(JSON.stringify({
